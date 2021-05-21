@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+    }
+    body{
+    
+    height:453px;
+    background-color: rgb(107, 238, 255);
+    font-family: 'Baloo 2', cursive;
+    min-height:100%;
+    
+    }
+    .container{
+    display: flex;
+    /* background-color: rgb(55, 231, 202); */
+    background-color: rgb(41, 17, 252);
+    /* background-color: rgb(104, 255, 129); */
+    }
+    .container img{
+    width: 100px;
+    height: 100px;
+    margin: 4px 10px;
+    }
+    .container h1{
+    margin: auto;
+    font-size: 50px;
+    /* text-shadow: 3.5px 0 rgb(136, 136, 255) ; */
+    /* background-color: rgb(241, 248, 144); */
+    /* text-shadow: 3.5px 0 rgb(241, 248, 144) ; */
+    }
+    
+    a
+    {text-decoration: none;
+    font-size: 18px;
+    }
+    
+    .navigation h3{
+    font-family: 'Baloo 2', cursive;
+    margin-top: 6px;
+    margin-bottom: 9px;
+    font-size: 2rem;
+    color: rgb(248, 46, 255);
+    text-align: center;
+    
+    }
+    
+    
+    table{
+    font-family: 'Baloo 2', cursive;
+    overflow:scroll;
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    justify-content: center;
+    }
+    
+    th{
+    padding: auto;
+    font-size:25px;
+    border: 3px solid;
+    text-align: center;
+    background-color: rgb(43, 142, 255);
+    /* background-color: rgb(144, 255, 80); */
+    }
+    td{
+    padding: 6px 4px;
+    font-size: 20px;
+    font-weight: bold;
+    /* text-align: center; */
+    border: 2px solid black;
+    }
+    
+    .row{
+        background-color: rgb(245, 118, 118);
+        justify-content: center;
+    /* text-align: center;     */
+    }
+    .column {
+    float: left;
+    width: 30.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    }
+    
+    
+    
+    .con {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        /* margin-left: 40px; */
+    padding: 12px 10px;
+    }
+    .con h3{font-size: 26px;
+        font-family: 'Baloo 2', cursive;
+    }
+    
+    .con::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    
+    
+    .card img{
+        justify-content: center;
+        text-align: center;
+        margin-top: 16px;
+        margin-left: 80px;
+        width:100px;
+        height: 200px;
+    }
+    h2{
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 2.3rem;
+        color: rgb(248, 46, 255);
+        text-align: center;
+        font-family: 'Baloo 2', cursive;
+    }
+    
+    
+    .regbtn{
+        margin-left: 5px;
+        text-align: center;
+        padding: 9px;
+        margin-top: 20px;
+     }
+    .regbtn button{
+    overflow: hidden;
+         font-size: 1.4rem;
+         border: 3px solid rgb(16, 36, 36);
+         border-radius: 4px;
+      
+         border: none;
+         width: 60%;
+         justify-content: center;
+         padding: 14px 4px;
+         color: rgb(70, 253, 53);
+     }
+    .regbtn button:hover{
+       border-radius: 3px;
+       background-color: rgb(255, 1, 255);
+      cursor: pointer;
+      color: black;
+      transition: 0.6s ease;
+       
+    }
+    .con p{
+        font-size: medium;
+    }
+    .gif-image img{
+       margin-top: 15px;
+       margin-left: 223px;
+    width: 410px;
+    height: 310px;
+    }
+    footer{
+            
+        text-align: center;
+      
+        background-color: rgb(0, 0, 0);
+     
+     color: rgb(255, 255, 255);
+      }
+      footer p{
+    padding-top: 10px;
+      text-align: center;
+      font-size: 1.3rem;
+      }
+      
+    
+      .cenet {
+          margin-left: auto;
+          justify-content: center;
+          text-align: center;
+          font-size: medium;
+      }
+      .cenet span{
+      
+          font-size: 2.1rem;
+          color: rgb(107, 238, 255);
+    
+      }
+    
+      
+      
+      .coco button{
+        display: inline-block;
+        margin-left: 329px;
+        margin-top: 13px;
+        margin-bottom: 36px;
+        padding: 12px 23px;
+        color: aqua;
+        font-size: 27px;
+        background: blue;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 4px;
+      }
+      .coco button:hover{
+        background-color: rgb(43, 142, 255);
+        color: #fff;
+      }
+    
+      #lec{
+    display: block;
+      }
+    
+     #lab{
+       display: none;   
+      }
+    
+      .counter{
+        display: flex;
+        font-family: 'Baloo 2', cursive;
+        font-size: 30px;
+        font-weight: 200;
+        justify-content: center;
+        text-align: center;
+       
+      }
+    
+     span{
+        color: blue;
+        animation: changecolorvisitor 1s infinite;
+        font-weight: bold;
+    }
+        @keyframes changecolorvisitor{
+            0%{color: rgb(225, 0, 255);}
+            50%{color: rgb(30, 14, 255)}
+            100%{color:rgb(255, 0, 0);}
+           
+    
+        }
+    
